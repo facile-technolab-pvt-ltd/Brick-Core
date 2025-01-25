@@ -36,7 +36,7 @@ Front end application of the project is under root folder /Brick.Core.Web/UI/Ang
 - run `ng serve` to run the front-end project and wait for the message that says compiled successfully
 - go to the browser and enter http://localhost:4200 to see the front end running 
 
-### Run Angular project 
+### Run React.js/Next.js project 
 - run `npm run dev` to run the front-end project and wait for the message that says compiled successfully
 - go to the browser and enter http://localhost:3000 to see the front end running 
 

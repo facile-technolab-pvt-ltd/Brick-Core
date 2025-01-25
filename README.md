@@ -6,8 +6,6 @@ Brick Core is a free version of the Brick SaaS Starter kit.
 - .NET SDK 8.0 Latest
 - Node latest
 
-## Folder Structure
-![folder structure screenshot](/images/project-structure.png)
 ## Running Back end Project
 Open Brick.Core.sln file in Visual Studio from the root folder of the source code.
 

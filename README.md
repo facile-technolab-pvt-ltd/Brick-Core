@@ -1,5 +1,5 @@
 # Brick-Core
-Brick Core is a free version of the Brick SaaS Starter kit. 
+Brick Core is a free version of the [Brick .NET SaaS Starter kit](https://brick.faciletechnolab.com) powered by *Facile Technolab*, [a top custom software development company in India](https://www.faciletechnolab.com/). 
 
 ## Pre-requisite
 - Visual Studio 2022 community or Visual Studio Code

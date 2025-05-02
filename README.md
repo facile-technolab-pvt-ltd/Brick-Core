@@ -20,11 +20,11 @@ for full list of latest features supported by Brick Free version, [check this we
 
 ### Brick - Paid version features:
 Other than what free version offers, paid version offers many additional features listed below:
-*Authentication*: Entra ID (Azure Active Directory) Authentication, Google Authentication, Facebook Authentication 
-*Multi-factor Authentication*: SMS (Twilio), Email (Sendgrid), Google Authenticator, Microsoft Authenticator  
-*Multi-language*: Supports user interface in multiple languages 
-*Payments*: Demo payment integration
-*Data Encryption*: Supports encryption of data in the database  
+- *Authentication*: Entra ID (Azure Active Directory) Authentication, Google Authentication, Facebook Authentication 
+- *Multi-factor Authentication*: SMS (Twilio), Email (Sendgrid), Google Authenticator, Microsoft Authenticator  
+- *Multi-language*: Supports user interface in multiple languages 
+- *Payments*: Demo payment integration
+- *Data Encryption*: Supports encryption of data in the database  
 
 for full list of latest features supported by Brick Paid version, [check this website](https://brickapp.faciletechnolab.com)
 
@@ -32,8 +32,8 @@ for full list of latest features supported by Brick Paid version, [check this we
 You can download your free or paid version [here](https://brickapp.faciletechnolab.com)
 
 ## Documentation
-[Free version documentation](./docs/brick-core.md)
-[Paid version documentation](./docs/brick.md)
+- [Free version documentation](./docs/brick-core.md)
+- [Paid version documentation](./docs/brick.md)
 
 
 

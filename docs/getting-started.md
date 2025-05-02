@@ -15,7 +15,7 @@ Open Brick.Core.sln file in Visual Studio from the root folder of the source cod
 ### Setting up appsettings.Development.json
 - Set values of `DefaultConnection` & `TenancyDefaultConnection` in `ConnectionStrings` section if you want to use `Microsoft SQL Server` and remove the other two connection strings commented below.
 - Notice the {0} in the database value in the `TenancyDefaultConnection`. It's important to keep it as it is so that we can dynamically set database name according to current tenant? 
-- If you want to switch to PostgreSQL, you can refer to [How to use PostgreSQL](./docs/PostgreSQL.md)
+- If you want to switch to PostgreSQL, you can refer to [How to use PostgreSQL](./PostgreSQL.md)
 - in the `Authentication:JwtBearer:SecurityKey` configuration, update the security key to something more strong and secure.
 
 ### Run update database

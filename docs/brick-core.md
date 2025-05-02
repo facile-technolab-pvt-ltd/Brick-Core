@@ -47,5 +47,5 @@ Front end application of the project is under root folder /Brick.Core.Web/UI/Ang
 - use `admin@yourdomain.com` as default username and `123qwe` as password
 
 ## Screenshots
-- [Angular version Screenshots](./docs/angular-screens.md)
-- [React version Screenshots](./docs/react-screens.md)
+- [Angular version Screenshots](./angular-screens.md)
+- [React version Screenshots](./react-screens.md)

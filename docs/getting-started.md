@@ -46,3 +46,7 @@ Front end application of the project is under root folder /Brick.Core.Web/UI/Ang
 - use `admin@yourdomain.com` as default username and `123qwe` as password
 
 ![Login](/images/1-login.gif "Login")
+
+
+## Back to Index
+- [Paid version documentation](./brick.md)

@@ -16,6 +16,7 @@ We are at early stage of this starter kit. We are working on powershell that can
 ## Step 3
 - Press ` Ctrl+Shift+F` to search in all solutions and search for `DefaultConnection`, you will see all the places where `DefaultConnection` is being used. You need to replace it with PostgreSQL Connectionstring name called `PGDefaultConnection`. 
 - In file /Facile.StarterKit.Data/Extentions/DataExtentions.cs, you will see `option.UseSqlServer(configuration.GetConnectionString("DefaultConnection"));`, replace it with `option.UseNpgsql(configuration.GetConnectionString("PGDefaultConnection"));`
+- Next, press `Ctrl+Shift+F` and search `ConnectionStrings:TenancyDefaultConnection` and replace it with `ConnectionStrings:TenancyPGDefaultConnection` everywhere.
 
 ## Step 4
 - Save all changes and rebuild your project

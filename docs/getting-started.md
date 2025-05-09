@@ -21,7 +21,8 @@ Open Brick.Core.sln file in Visual Studio from the root folder of the source cod
 ### Run update database
 - Open tools > Nuget Package Manager > Package Manager console
 - Select Brick.Core.Data as the project
-- enter command `Add-Migration "Initial"` and wait for the migration to be created.
+- enter command `Add-Migration Initial` and wait for the migration to be created.
+![Add-Migration](/images/12-Add-Migration.gif "Add-Migration")
 - enter the command `Update-Database` and wait for it to build and finish running migrations.
 - Set Brick.Core.Web as a startup project and hit F5 to run the project.
 

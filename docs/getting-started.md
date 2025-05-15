@@ -2,7 +2,7 @@
 This documentation is for Paid version of the Brick - SaaS Starter kit.
 
 ## Before we start
-- Current release `Brick-0.0.0.1` uses Microsoft Sql Server as default database
+- Current release `Brick-0.0.0.2` uses Microsoft Sql Server as default database
 
 ## Pre-requisite
 - Visual Studio 2022 community or Visual Studio Code

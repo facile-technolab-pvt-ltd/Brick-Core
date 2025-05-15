@@ -6,6 +6,7 @@ By default, SMTP email configuration is used to send outgoing emails. You can us
 - Domain Authentication process completed
 - Send Authentication process completed
 - Configuration uses the verified domain and send.
+- Go through [Multi-tenancy](./multi-tenancy.md) documentation to understand how to setup multiple tenants.
 
 ## Signing up for sendgrid account
 - Go to sendgrid website and sign up using your business email.
@@ -29,7 +30,8 @@ Follow [this documentation](https://www.twilio.com/docs/sendgrid/ui/account-and-
 - Go to settings
 - Switch to `Sendgrid Settings` tab
 - Enter from name, from email, and API Key
-- click `Test Email` to test configuration. 
+
+Please note this perticular setting needs to be configured at tenant level. That means every new tenant you create will need this configuration.
 
 ## Switch from SMTP to Sendgrid - Manual code changes
 Since we are in early version, switching from SMTP to sendgrid requires some manual code changes. 

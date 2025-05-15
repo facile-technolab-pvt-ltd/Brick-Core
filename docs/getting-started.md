@@ -7,7 +7,8 @@ This documentation is for Paid version of the Brick - SaaS Starter kit.
 ## Pre-requisite
 - Visual Studio 2022 community or Visual Studio Code
 - .NET SDK 8.0 Latest
-- Node latest
+- Node.js latest
+- [Install Redis for windows](https://www.w3schools.io/nosql/redis-install-windows/) and [Redis Client](https://goanother.com/)
 
 ## Running Back end Project
 Open Brick.Core.sln file in Visual Studio from the root folder of the source code.

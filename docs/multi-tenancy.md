@@ -9,8 +9,15 @@ Default tenant or host tenant is a tenant that is used by Super Admin to perform
 - That's the reason you see default company when you login for the first time.
 
 ## Adding more tenants 
-- At the time of development, you can login to Default tenant, create a new tenant and use 'Login with tenant' feature to test your tenant specific features
-- At the time of production, tenant name in the tenant management section will be used to automatically map it to the subdomain. For example, brick.faciletechnolab.com will map to tenant called Brick. It's case insensitive.
+
+### Adding more tenants in `Development environment`
+- Login to Default tenant on url http://localhost:3000, login with default admin credentials
+- go to Tenants section
+- Click on Add tenant
+- Set `tenant1` in Name and Tenancy Name, copy connection string from appsettings and set database name to `tenant1`, and create tenant.
+- once the tenant is created and shows in the tenant's list. You can switch to another incognito browser and locate: http://tenant1.localhost:3000, you will notice that the login page will show tenant1 instead of default now.
+- login with the tenant admin credentials you provided at the time of creating tenant
+- now you can configure the tenant specific settings individually for this specific tenant.
 
 ## Back to Index
 - [Paid version documentation](./brick.md)
